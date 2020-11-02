@@ -8,7 +8,7 @@ import { setContext } from 'apollo-link-context';
 
 const httpLink = createHttpLink({
     // this will point to the graphql server
-    uri: 'http://localhost:5000'
+    uri: "https://shielded-fortress-99406.herokuapp.com/"
 });
 
 const authLink = setContext(() => {
